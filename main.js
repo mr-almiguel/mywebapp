@@ -1,2 +1,9 @@
-var nome = prompt("What is your name?")
-alert("Welcome " +nome +" Thanks for joining us")
+let nome = prompt("What is your name?")
+
+if(nome !== "") {
+    alert("Welcome " +nome +" Thanks for joining us")
+    //alert("This field cannot be empty")
+} else {
+    //alert("Welcome " +nome +" Thanks for joining us")
+    alert("This field cannot be empty")
+}
